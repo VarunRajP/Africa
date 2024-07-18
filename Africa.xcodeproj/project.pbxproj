@@ -43,6 +43,12 @@
 		159F77CA2C47CEFC004D2297 /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159F77C92C47CEFC004D2297 /* InsetFactView.swift */; };
 		159F77CC2C48D662004D2297 /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159F77CB2C48D662004D2297 /* InsetMapView.swift */; };
 		159F77CE2C48DC1F004D2297 /* ExternalWebLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159F77CD2C48DC1F004D2297 /* ExternalWebLinkView.swift */; };
+		159F77D02C48E270004D2297 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159F77CF2C48E270004D2297 /* VideoModel.swift */; };
+		159F77D22C48E2A3004D2297 /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159F77D12C48E2A3004D2297 /* VideoListItemView.swift */; };
+		159F77D42C48E7E2004D2297 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159F77D32C48E7E2004D2297 /* VideoPlayerView.swift */; };
+		159F77D72C48E8A5004D2297 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159F77D62C48E8A5004D2297 /* VideoPlayerHelper.swift */; };
+		159F77D92C48F5D3004D2297 /* NationalParkLocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159F77D82C48F5D3004D2297 /* NationalParkLocationModel.swift */; };
+		159F77DD2C48FA41004D2297 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159F77DC2C48FA41004D2297 /* MotionAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +109,12 @@
 		159F77C92C47CEFC004D2297 /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
 		159F77CB2C48D662004D2297 /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
 		159F77CD2C48DC1F004D2297 /* ExternalWebLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWebLinkView.swift; sourceTree = "<group>"; };
+		159F77CF2C48E270004D2297 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		159F77D12C48E2A3004D2297 /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
+		159F77D32C48E7E2004D2297 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		159F77D62C48E8A5004D2297 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
+		159F77D82C48F5D3004D2297 /* NationalParkLocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalParkLocationModel.swift; sourceTree = "<group>"; };
+		159F77DC2C48FA41004D2297 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				159F77AC2C478D32004D2297 /* Info.plist */,
+				159F77D52C48E890004D2297 /* Helper */,
 				159F77BA2C4790DA004D2297 /* Extension */,
 				159F77B92C4790D4004D2297 /* Model */,
 				159F77B62C478FA4004D2297 /* View */,
@@ -243,6 +256,9 @@
 				159F77C92C47CEFC004D2297 /* InsetFactView.swift */,
 				159F77CB2C48D662004D2297 /* InsetMapView.swift */,
 				159F77CD2C48DC1F004D2297 /* ExternalWebLinkView.swift */,
+				159F77D12C48E2A3004D2297 /* VideoListItemView.swift */,
+				159F77D32C48E7E2004D2297 /* VideoPlayerView.swift */,
+				159F77DC2C48FA41004D2297 /* MotionAnimationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -252,6 +268,8 @@
 			children = (
 				159F77BB2C4790EE004D2297 /* CoverImageModel.swift */,
 				159F77C12C47A0D9004D2297 /* AnimalModel.swift */,
+				159F77CF2C48E270004D2297 /* VideoModel.swift */,
+				159F77D82C48F5D3004D2297 /* NationalParkLocationModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -262,6 +280,14 @@
 				159F77BD2C479120004D2297 /* CodeableBundleExtension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		159F77D52C48E890004D2297 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				159F77D62C48E8A5004D2297 /* VideoPlayerHelper.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -408,6 +434,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				159F77D22C48E2A3004D2297 /* VideoListItemView.swift in Sources */,
 				159F77B12C478DF4004D2297 /* VideoListView.swift in Sources */,
 				159F77C02C479F09004D2297 /* AnimalListItemView.swift in Sources */,
 				159F77B52C478E06004D2297 /* GalleryView.swift in Sources */,
@@ -417,14 +444,19 @@
 				159F77C42C47A428004D2297 /* AnimalDetailView.swift in Sources */,
 				159F77C22C47A0D9004D2297 /* AnimalModel.swift in Sources */,
 				159F77672C478A05004D2297 /* ContentView.swift in Sources */,
+				159F77D72C48E8A5004D2297 /* VideoPlayerHelper.swift in Sources */,
 				159F77CC2C48D662004D2297 /* InsetMapView.swift in Sources */,
 				159F77AF2C478DE2004D2297 /* MapView.swift in Sources */,
 				159F77CE2C48DC1F004D2297 /* ExternalWebLinkView.swift in Sources */,
 				159F77B32C478DFC004D2297 /* MainView.swift in Sources */,
+				159F77D02C48E270004D2297 /* VideoModel.swift in Sources */,
 				159F77652C478A05004D2297 /* AfricaApp.swift in Sources */,
 				159F77C82C47A810004D2297 /* InsetGalleryView.swift in Sources */,
+				159F77D92C48F5D3004D2297 /* NationalParkLocationModel.swift in Sources */,
 				159F77BE2C479120004D2297 /* CodeableBundleExtension.swift in Sources */,
+				159F77DD2C48FA41004D2297 /* MotionAnimationView.swift in Sources */,
 				159F77C62C47A637004D2297 /* HeadingView.swift in Sources */,
+				159F77D42C48E7E2004D2297 /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
