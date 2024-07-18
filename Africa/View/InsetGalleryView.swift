@@ -26,7 +26,7 @@ struct InsetGalleryView: View {
     }
 }
 
-#Preview(traits: .sizeThatFitsLayout) {
+#Preview {
     return InsetGalleryView()
         .padding()
 }
